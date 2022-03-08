@@ -1,0 +1,40 @@
+html,body{
+    height : 100%;
+    display: flex;
+}
+h1 {
+    text-align: center;
+    font-size : 7vw;
+}
+.text-rainbow{
+    background-image : linear-gradient(90deg,red,orange,yellow,green,blue,navy,purple);
+    /*-webkit-background-clip : text;*/
+    color : rgb(199, 193, 193);
+
+    font-weight: bold;
+    font-size : 12pt;
+    width : 70%;
+    height : 10px;
+    overflow: hidden;
+
+    padding-top : 4px;
+}
+#bieber{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+#quoka{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+}
+#mainimage{
+    display: inline-block;
+    text-align:center;
+    width:40%;
+}
+#main{
+    text-align: center;
+    margin : auto 0;
+}
