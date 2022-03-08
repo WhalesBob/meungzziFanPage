@@ -23,39 +23,53 @@
 
                 padding-top : 4px;
             }
-            .image{
+            #bieber{
                 display: inline-block;
                 text-align: center;
+                width: 20%;
             }
-            #mainbody{text-align: center;}
+            #quoka{
+                display: inline-block;
+                text-align: center;
+                width: 15%;
+            }
+            #mainimage{
+                display: inline-block;
+                text-align:center;
+                width:40%;
+            }
+            .main{
+                position:relative;
+                margin-top : 30%;
+                margin-bottom: 30%;
+                text-align: center;
+            }
         </style>
+        
     </head>
     <body bgcolor="#ffe2e1">
-        
-        <div id="mainbody">
+        <div class = "main">
             <h1>💖믕지님 팬카페💖</h1>
-            <span class="text-rainbow">
-            <MARQUEE  scrollamount="10" direction = "right">
-                믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★</MARQUEE>
+        <span class="text-rainbow">
+        <MARQUEE  scrollamount="10" direction = "right">
+            믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★</MARQUEE>
+        <!-- 스크롤의 속도 -->
+        </span>
+        <img id="bieber" src = "비버.png">
+        <a href = "http://www.naver.com">
+            <img id="mainimage" src = "보노보노.png">
+        </a>
+        <img id="quoka" src = "쿼카.png">
+        <span class="text-rainbow">
+            <MARQUEE  scrollamount="10">
+                믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★
+            </MARQUEE>
             <!-- 스크롤의 속도 -->
-            </span>
-            <div class= "image">
-                <img src = "비버.png", height="300">
-            </div>
-            <div class= "image">
-                <a href = "http://www.naver.com">
-                    <img src = "보노보노.png" height="400">
-                </a>
-            </div>
-            <div class= "image">
-                <img src = "쿼카.png", height="300">
-            </div>
-            <span class="text-rainbow">
-                <MARQUEE  scrollamount="10">
-                    믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★
-                </MARQUEE>
-                <!-- 스크롤의 속도 -->
-            </span>
+        </span>
         </div>
+        <script>
+            let totalSize = document.querySelector('.main');
+            console.log(totalSize.clientHeight);
+        </script>
     </body>
 </html>
