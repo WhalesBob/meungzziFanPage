@@ -6,6 +6,10 @@
         <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
         <title>믕지님 팬카페</title>
         <style>
+            html,body{
+                height : 100%;
+                display: flex;
+            }
             h1 {
                 text-align: center;
                 font-size : 40px;
@@ -38,17 +42,15 @@
                 text-align:center;
                 width:40%;
             }
-            .main{
-                position:relative;
-                margin-top : 30%;
-                margin-bottom: 30%;
+            #main{
                 text-align: center;
+                margin : auto 0;
             }
         </style>
         
     </head>
     <body bgcolor="#ffe2e1">
-        <div class = "main">
+        <div id = "main">
             <h1>💖믕지님 팬카페💖</h1>
         <span class="text-rainbow">
         <MARQUEE  scrollamount="10" direction = "right">
@@ -67,9 +69,5 @@
             <!-- 스크롤의 속도 -->
         </span>
         </div>
-        <script>
-            let totalSize = document.querySelector('.main');
-            console.log(totalSize.clientHeight);
-        </script>
     </body>
 </html>
