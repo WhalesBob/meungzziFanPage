@@ -6,6 +6,7 @@
         <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
         <title>믕지님 팬카페</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     </head>
     <body bgcolor="#ffe2e1">
         <div id = "main">
@@ -27,5 +28,16 @@
             <!-- 스크롤의 속도 -->
         </span>
         </div>
+        <script>
+            $(document).ready(function(){
+                $("#bieber").click(function(){
+                    alert("Bieber!");
+                })
+
+                $("#quoka").click(function(){
+                    alert("Quoka!");
+                })
+            })
+        </script>
     </body>
 </html>
