@@ -4,7 +4,7 @@ html,body{
 }
 h1 {
     text-align: center;
-    font-size : 7vw;
+    font-size : 6vw;
 }
 .text-rainbow{
     background-image : linear-gradient(90deg,red,orange,yellow,green,blue,navy,purple);
