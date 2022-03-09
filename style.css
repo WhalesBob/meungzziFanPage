@@ -16,7 +16,6 @@ h1 {
     width : 70%;
     height : 10px;
     overflow: hidden;
-
     padding-top : 4px;
 }
 #bieber{
@@ -28,6 +27,14 @@ h1 {
     display: inline-block;
     text-align: center;
     width: 15%;
+}
+#biebertalk{
+    display: none;
+    width : 6%;
+}
+#quokatalk{
+    display: none;
+    width : 6%;
 }
 #mainimage{
     display: inline-block;

@@ -7,6 +7,24 @@
         <title>믕지님 팬카페</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
         <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#quokatalk").hide;
+                $("#biebertalk").hide;
+                $("#bieber").click(function(){
+                    $("#biebertalk").fadeIn(1000);
+                    $("#biebertalk").css('display','inline-block');
+                    $("#biebertalk").fadeOut(1000);
+                })
+
+                $("#quoka").click(function(){
+                    $("#quokatalk").fadeIn(1000);
+                    $("#quokatalk").css('display','inline-block');
+                    $("#quokatalk").fadeOut(1000);
+                    
+                })
+            })
+        </script>
     </head>
     <body bgcolor="#ffe2e1">
         <div id = "main">
@@ -16,11 +34,13 @@
             믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★</MARQUEE>
         <!-- 스크롤의 속도 -->
         </span>
+        <img id="biebertalk" src = "뿌엥.png">
         <img id="bieber" src = "https://github.com/WhalesBob/meungzziFanPage/blob/master/%EB%B9%84%EB%B2%84.png?raw=true">
         <a href = "https://instagram.com/meungzzl?utm_medium=copy_link">
             <img id="mainimage" src = "https://github.com/WhalesBob/meungzziFanPage/blob/master/%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8.png?raw=true">
         </a>
         <img id="quoka" src = "https://github.com/WhalesBob/meungzziFanPage/blob/master/%EC%BF%BC%EC%B9%B4.png?raw=true">
+        <img id="quokatalk" src = "hegh.png">
         <span class="text-rainbow">
             <MARQUEE  scrollamount="10">
                 믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★믕지★
@@ -28,21 +48,6 @@
             <!-- 스크롤의 속도 -->
         </span>
         </div>
-        <script>
-            $(document).ready(function(){
-                $("#bieber").click(function(){
-                    $("#bieber").fadeOut(1000);
-                    /*
-                    <img id="img_form_url">
-                        위 img 의 src를 변경하는 방법
-                    $("#img_form_url").attr("src", imgurl);
-                    출처: https://it77.tistory.com/358 [시원한물냉의 사람사는 이야기]*/
-                })
-
-                $("#quoka").click(function(){
-                    $("#quoka").fadeOut(1000);
-                })
-            })
-        </script>
+       
     </body>
 </html>
