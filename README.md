@@ -1,6 +1,4 @@
-# meungzziFanPage
-
-<h1> 여자친구 팬페이지 </h1>
+<h1> 여자친구 팬페이지 (meungzziFanPage) </h1>
 
 HTML/CSS/JS를 공부하는 김에, 사랑하는 여친님의 팬페이지를 만들어 보았다. 
 
