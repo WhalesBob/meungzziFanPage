@@ -14,7 +14,12 @@ $(document).ready(function(){
         $("#quokatalk").css('display','inline-block');
         $("#quokatalk").fadeOut(1000);
         $("#quokatalk").click(() => { count++; opening(count);});
-    })    
+    })
+    
+    $("#dino").click(function(){
+        $("#dino").attr("src","dinofire.png");
+        setTimeout(()=>$("#dino").attr("src", "dino.png"), 2000);
+    })
 })
 
 function opening(count){

@@ -3,8 +3,19 @@ html,body{
     display: flex;
 }
 h1 {
+    display: inline-block;
     text-align: center;
     font-size : 6vw;
+}
+#dino{
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+}
+#flower{
+    display: inline-block;
+    text-align: center;
+    width: 12%;
 }
 .text-rainbow{
     background-image : linear-gradient(90deg,red,orange,yellow,green,blue,navy,purple);
